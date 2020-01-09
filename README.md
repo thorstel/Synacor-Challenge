@@ -49,3 +49,40 @@ Things of interest here:
 - can
 ```
 
+### Code No. 6
+With the lantern lit, it is now possible to proceed past the grues into the "Ruins". Here five coins can be found and the equation `_ + _ * _^2 _^3 - _ = 399` has to be solved to unlock a door. Each coin has a specific value, the order in which the coins are inserted determines what value is used for which variable in the equation. The values for the individual coins can be found out by inserting them in arbitrary order and "looking" for the changed values. For me, the coins had the following values:
+
+| Coin          | Value |
+| ------------- | ----: |
+| red coin      | 2     |
+| corroded coin | 3     |
+| shiny coin    | 5     |
+| concave coin  | 7     |
+| blue coin     | 9     |
+
+I solved the equation with a small [Prolog script](resources/coin-puzzle.pl):
+
+```prolog
+puzzle(X) :-
+    X = [A,B,C,D,E],
+    member(2, X),
+    member(3, X),
+    member(5, X),
+    member(7, X),
+    member(9, X),
+    399 is A + (B * (C^2)) + (D^3) - E.
+
+?- puzzle(X).
+X = [9, 2, 5, 7, 3] .
+```
+
+Inserting the coins in that order unlocks the door and provides access to a teleporter. Using the teleporter gives me the sixth code.
+
+```
+You activate the teleporter!  As you spiral through time and space, you think you see a pattern in the stars...
+
+    DuGWVFxMIYfv
+
+After a few moments, you find yourself back on solid ground and a little disoriented.
+```
+
