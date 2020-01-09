@@ -1,0 +1,40 @@
+digraph {
+    maze_alikeTwisty_allLittle [label="You are in a maze of alike twisty passages, all little.\n(N, E, S)"]
+    maze_littleTwisty_allAlike [label="You are in a maze of little twisty passages, all alike.\n(N, S, E)"]
+    maze_alikeLittle_allTwisty_grue [label="You are in a maze of alike little passages, all twisty.\nThe passage to the east looks very dark; you think you hear a Grue.\n(N, S, W, E)"]
+    twistyMaze_little_allAlike [label="You are in a twisty maze of little passages, all alike.\n(N, S, W)"]
+    littleMaze_twisty_allAlike [label="You are in a little maze of twisty passages, all alike.\n(N, S, E)"]
+    twistyAlike_little_allMaze_grue [label="You are in a twisty alike of little passages, all maze.\nThe east passage appears very dark; you feel likely to be eaten by a Grue.\n(N, S, W, E)"]
+    maze_twistyLittle_allAlike [label="You are in a maze of twisty little passages, all alike.\n(W; can)"]
+
+    Start -> maze_alikeLittle_allTwisty_grue [label=east]
+    Start -> twistyMaze_little_allAlike [label=north]
+    Start -> maze_littleTwisty_allAlike [label=south]
+    Start -> littleMaze_twisty_allAlike [label=west]
+
+    maze_alikeLittle_allTwisty_grue -> maze_alikeTwisty_allLittle [label=north]
+    maze_alikeLittle_allTwisty_grue -> Start [label=west]
+    maze_alikeLittle_allTwisty_grue -> maze_alikeLittle_allTwisty_grue [label=south]
+
+    maze_alikeTwisty_allLittle -> maze_littleTwisty_allAlike [label=north]
+    maze_alikeTwisty_allLittle -> twistyMaze_little_allAlike [label=east]
+    maze_alikeTwisty_allLittle -> maze_alikeTwisty_allLittle [label=south]
+
+    maze_littleTwisty_allAlike -> Start [label=north]
+    maze_littleTwisty_allAlike -> twistyMaze_little_allAlike [label=south]
+    maze_littleTwisty_allAlike -> maze_littleTwisty_allAlike [label=east]
+
+    twistyMaze_little_allAlike -> maze_littleTwisty_allAlike [label=north]
+    twistyMaze_little_allAlike -> Start [label=south]
+    twistyMaze_little_allAlike -> twistyMaze_little_allAlike [label=west]
+
+    littleMaze_twisty_allAlike -> Start [label=east]
+    littleMaze_twisty_allAlike -> littleMaze_twisty_allAlike [label=north]
+    littleMaze_twisty_allAlike -> twistyAlike_little_allMaze_grue [label=south]
+
+    twistyAlike_little_allMaze_grue -> maze_twistyLittle_allAlike [label=north]
+    twistyAlike_little_allMaze_grue -> twistyMaze_little_allAlike [label=south]
+    twistyAlike_little_allMaze_grue -> maze_littleTwisty_allAlike [label=west]
+
+    maze_twistyLittle_allAlike -> Start [label=west]
+}

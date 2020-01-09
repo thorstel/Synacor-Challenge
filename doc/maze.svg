@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1416pt" height="761pt" viewBox="0.00 0.00 1416.37 761.31">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 757.3053)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-757.3053 1412.366,-757.3053 1412.366,4 -4,4"/>
+<!-- maze_alikeTwisty_allLittle -->
+<g id="node1" class="node">
+<title>maze_alikeTwisty_allLittle</title>
+<ellipse fill="none" stroke="#000000" cx="794.9665" cy="-723.8896" rx="217.4711" ry="29.3315"/>
+<text text-anchor="middle" x="794.9665" y="-728.0896" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a maze of alike twisty passages, all little.</text>
+<text text-anchor="middle" x="794.9665" y="-711.2896" font-family="Times,serif" font-size="14.00" fill="#000000">(N, E, S)</text>
+</g>
+<!-- maze_alikeTwisty_allLittle&#45;&gt;maze_alikeTwisty_allLittle -->
+<g id="edge10" class="edge">
+<title>maze_alikeTwisty_allLittle-&gt;maze_alikeTwisty_allLittle</title>
+<path fill="none" stroke="#000000" d="M1005.4387,-731.4037C1020.9444,-729.7166 1030.452,-727.2119 1030.452,-723.8896 1030.452,-721.372 1024.992,-719.3239 1015.5992,-717.7452"/>
+<polygon fill="#000000" stroke="#000000" points="1015.8167,-714.243 1005.4387,-716.3756 1014.8815,-721.1802 1015.8167,-714.243"/>
+<text text-anchor="middle" x="1045.6196" y="-719.6896" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- maze_littleTwisty_allAlike -->
+<g id="node2" class="node">
+<title>maze_littleTwisty_allAlike</title>
+<ellipse fill="none" stroke="#000000" cx="1071.9665" cy="-612.2584" rx="217.4711" ry="29.3315"/>
+<text text-anchor="middle" x="1071.9665" y="-616.4584" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a maze of little twisty passages, all alike.</text>
+<text text-anchor="middle" x="1071.9665" y="-599.6584" font-family="Times,serif" font-size="14.00" fill="#000000">(N, S, E)</text>
+</g>
+<!-- maze_alikeTwisty_allLittle&#45;&gt;maze_littleTwisty_allAlike -->
+<g id="edge8" class="edge">
+<title>maze_alikeTwisty_allLittle-&gt;maze_littleTwisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M864.5078,-695.8644C903.6101,-680.1062 952.558,-660.3801 993.0874,-644.0467"/>
+<polygon fill="#000000" stroke="#000000" points="994.4298,-647.2793 1002.3966,-640.2951 991.8132,-640.7867 994.4298,-647.2793"/>
+<text text-anchor="middle" x="964.7421" y="-663.874" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- twistyMaze_little_allAlike -->
+<g id="node4" class="node">
+<title>twistyMaze_little_allAlike</title>
+<ellipse fill="none" stroke="#000000" cx="794.9665" cy="-500.6271" rx="217.4711" ry="29.3315"/>
+<text text-anchor="middle" x="794.9665" y="-504.8271" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a twisty maze of little passages, all alike.</text>
+<text text-anchor="middle" x="794.9665" y="-488.0271" font-family="Times,serif" font-size="14.00" fill="#000000">(N, S, W)</text>
+</g>
+<!-- maze_alikeTwisty_allLittle&#45;&gt;twistyMaze_little_allAlike -->
+<g id="edge9" class="edge">
+<title>maze_alikeTwisty_allLittle-&gt;twistyMaze_little_allAlike</title>
+<path fill="none" stroke="#000000" d="M794.9665,-694.2421C794.9665,-654.7093 794.9665,-584.6044 794.9665,-540.4795"/>
+<polygon fill="#000000" stroke="#000000" points="798.4666,-540.3972 794.9665,-530.3972 791.4666,-540.3973 798.4666,-540.3972"/>
+<text text-anchor="middle" x="805.8487" y="-608.0584" font-family="Times,serif" font-size="14.00" fill="#000000">east</text>
+</g>
+<!-- maze_littleTwisty_allAlike&#45;&gt;maze_littleTwisty_allAlike -->
+<g id="edge13" class="edge">
+<title>maze_littleTwisty_allAlike-&gt;maze_littleTwisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M1282.4387,-619.7724C1297.9444,-618.0853 1307.452,-615.5806 1307.452,-612.2584 1307.452,-609.7407 1301.992,-607.6926 1292.5992,-606.114"/>
+<polygon fill="#000000" stroke="#000000" points="1292.8167,-602.6117 1282.4387,-604.7443 1291.8815,-609.549 1292.8167,-602.6117"/>
+<text text-anchor="middle" x="1318.3342" y="-608.0584" font-family="Times,serif" font-size="14.00" fill="#000000">east</text>
+</g>
+<!-- maze_littleTwisty_allAlike&#45;&gt;twistyMaze_little_allAlike -->
+<g id="edge12" class="edge">
+<title>maze_littleTwisty_allAlike-&gt;twistyMaze_little_allAlike</title>
+<path fill="none" stroke="#000000" d="M1019.5824,-583.6437C996.739,-571.7798 969.412,-558.3995 943.9665,-548.0427 928.8707,-541.8984 912.6601,-536.0281 896.6881,-530.6412"/>
+<polygon fill="#000000" stroke="#000000" points="897.3796,-527.1829 886.7861,-527.3515 895.1726,-533.8259 897.3796,-527.1829"/>
+<text text-anchor="middle" x="994.1341" y="-552.2427" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- Start -->
+<g id="node8" class="node">
+<title>Start</title>
+<ellipse fill="none" stroke="#000000" cx="827.9665" cy="-400.4114" rx="29.049" ry="18"/>
+<text text-anchor="middle" x="827.9665" y="-396.2114" font-family="Times,serif" font-size="14.00" fill="#000000">Start</text>
+</g>
+<!-- maze_littleTwisty_allAlike&#45;&gt;Start -->
+<g id="edge11" class="edge">
+<title>maze_littleTwisty_allAlike-&gt;Start</title>
+<path fill="none" stroke="#000000" d="M1079.3168,-582.6521C1085.18,-551.4953 1088.8058,-502.6933 1063.9665,-471.2114 1039.4202,-440.1008 926.7831,-416.9366 866.4254,-406.5127"/>
+<polygon fill="#000000" stroke="#000000" points="866.9462,-403.0511 856.5022,-404.8324 865.7775,-409.9529 866.9462,-403.0511"/>
+<text text-anchor="middle" x="1097.7421" y="-496.4271" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- maze_alikeLittle_allTwisty_grue -->
+<g id="node3" class="node">
+<title>maze_alikeLittle_allTwisty_grue</title>
+<ellipse fill="none" stroke="#000000" cx="277.9665" cy="-288.3164" rx="277.933" ry="41.0911"/>
+<text text-anchor="middle" x="277.9665" y="-300.9164" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a maze of alike little passages, all twisty.</text>
+<text text-anchor="middle" x="277.9665" y="-284.1164" font-family="Times,serif" font-size="14.00" fill="#000000">The passage to the east looks very dark; you think you hear a Grue.</text>
+<text text-anchor="middle" x="277.9665" y="-267.3164" font-family="Times,serif" font-size="14.00" fill="#000000">(N, S, W, E)</text>
+</g>
+<!-- maze_alikeLittle_allTwisty_grue&#45;&gt;maze_alikeTwisty_allLittle -->
+<g id="edge5" class="edge">
+<title>maze_alikeLittle_allTwisty_grue-&gt;maze_alikeTwisty_allLittle</title>
+<path fill="none" stroke="#000000" d="M294.5459,-329.6679C301.4841,-350.5308 307.9665,-376.4379 307.9665,-400.4114 307.9665,-612.2584 307.9665,-612.2584 307.9665,-612.2584 307.9665,-672.1754 449.7927,-699.9334 580.3715,-712.7926"/>
+<polygon fill="#000000" stroke="#000000" points="580.2633,-716.2981 590.5514,-713.7676 580.9307,-709.33 580.2633,-716.2981"/>
+<text text-anchor="middle" x="322.7421" y="-496.4271" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- maze_alikeLittle_allTwisty_grue&#45;&gt;maze_alikeLittle_allTwisty_grue -->
+<g id="edge7" class="edge">
+<title>maze_alikeLittle_allTwisty_grue-&gt;maze_alikeLittle_allTwisty_grue</title>
+<path fill="none" stroke="#000000" d="M550.373,-296.5553C565.1537,-294.5432 573.933,-291.7969 573.933,-288.3164 573.933,-285.706 568.9947,-283.5087 560.2899,-281.7242"/>
+<polygon fill="#000000" stroke="#000000" points="560.8113,-278.263 550.373,-280.0775 559.6645,-285.1684 560.8113,-278.263"/>
+<text text-anchor="middle" x="589.1006" y="-284.1164" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- maze_alikeLittle_allTwisty_grue&#45;&gt;Start -->
+<g id="edge6" class="edge">
+<title>maze_alikeLittle_allTwisty_grue-&gt;Start</title>
+<path fill="none" stroke="#000000" d="M370.7463,-327.353C406.8584,-341.0891 448.9528,-355.3473 488.3101,-364.4114 595.0501,-388.994 724.5904,-396.8443 788.4554,-399.3101"/>
+<polygon fill="#000000" stroke="#000000" points="788.3754,-402.8094 798.4956,-399.6739 788.6289,-395.814 788.3754,-402.8094"/>
+<text text-anchor="middle" x="501.7947" y="-351.8114" font-family="Times,serif" font-size="14.00" fill="#000000">west</text>
+</g>
+<!-- twistyMaze_little_allAlike&#45;&gt;maze_littleTwisty_allAlike -->
+<g id="edge14" class="edge">
+<title>twistyMaze_little_allAlike-&gt;maze_littleTwisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M841.2445,-529.4681C861.8857,-541.5106 886.8271,-554.9656 910.4153,-564.8427 926.3049,-571.4962 943.4403,-577.5991 960.4057,-583.0524"/>
+<polygon fill="#000000" stroke="#000000" points="959.7749,-586.5231 970.3644,-586.1874 961.8768,-579.8461 959.7749,-586.5231"/>
+<text text-anchor="middle" x="924.7421" y="-552.2427" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- twistyMaze_little_allAlike&#45;&gt;twistyMaze_little_allAlike -->
+<g id="edge16" class="edge">
+<title>twistyMaze_little_allAlike-&gt;twistyMaze_little_allAlike</title>
+<path fill="none" stroke="#000000" d="M1005.4387,-508.1411C1020.9444,-506.454 1030.452,-503.9493 1030.452,-500.6271 1030.452,-498.1094 1024.992,-496.0613 1015.5992,-494.4827"/>
+<polygon fill="#000000" stroke="#000000" points="1015.8167,-490.9804 1005.4387,-493.113 1014.8815,-497.9177 1015.8167,-490.9804"/>
+<text text-anchor="middle" x="1043.2802" y="-496.4271" font-family="Times,serif" font-size="14.00" fill="#000000">west</text>
+</g>
+<!-- twistyMaze_little_allAlike&#45;&gt;Start -->
+<g id="edge15" class="edge">
+<title>twistyMaze_little_allAlike-&gt;Start</title>
+<path fill="none" stroke="#000000" d="M805.8058,-471.1128C807.9037,-465.2024 810.0453,-459.0236 811.9665,-453.2114 814.6298,-445.1544 817.3659,-436.3504 819.8055,-428.2814"/>
+<polygon fill="#000000" stroke="#000000" points="823.1992,-429.1488 822.7093,-418.5653 816.4923,-427.1443 823.1992,-429.1488"/>
+<text text-anchor="middle" x="832.1341" y="-440.6114" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- littleMaze_twisty_allAlike -->
+<g id="node5" class="node">
+<title>littleMaze_twisty_allAlike</title>
+<ellipse fill="none" stroke="#000000" cx="876.9665" cy="-288.3164" rx="217.4711" ry="29.3315"/>
+<text text-anchor="middle" x="876.9665" y="-292.5164" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a little maze of twisty passages, all alike.</text>
+<text text-anchor="middle" x="876.9665" y="-275.7164" font-family="Times,serif" font-size="14.00" fill="#000000">(N, S, E)</text>
+</g>
+<!-- littleMaze_twisty_allAlike&#45;&gt;littleMaze_twisty_allAlike -->
+<g id="edge18" class="edge">
+<title>littleMaze_twisty_allAlike-&gt;littleMaze_twisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M1082.0528,-298.1505C1100.7142,-296.1062 1112.452,-292.8281 1112.452,-288.3164 1112.452,-284.6859 1104.8515,-281.8542 1092.159,-279.8213"/>
+<polygon fill="#000000" stroke="#000000" points="1092.4259,-276.3262 1082.0528,-278.4823 1091.5064,-283.2655 1092.4259,-276.3262"/>
+<text text-anchor="middle" x="1127.2276" y="-284.1164" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- twistyAlike_little_allMaze_grue -->
+<g id="node6" class="node">
+<title>twistyAlike_little_allMaze_grue</title>
+<ellipse fill="none" stroke="#000000" cx="1105.9665" cy="-152.9263" rx="302.2989" ry="41.0911"/>
+<text text-anchor="middle" x="1105.9665" y="-165.5263" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a twisty alike of little passages, all maze.</text>
+<text text-anchor="middle" x="1105.9665" y="-148.7263" font-family="Times,serif" font-size="14.00" fill="#000000">The east passage appears very dark; you feel likely to be eaten by a Grue.</text>
+<text text-anchor="middle" x="1105.9665" y="-131.9263" font-family="Times,serif" font-size="14.00" fill="#000000">(N, S, W, E)</text>
+</g>
+<!-- littleMaze_twisty_allAlike&#45;&gt;twistyAlike_little_allMaze_grue -->
+<g id="edge19" class="edge">
+<title>littleMaze_twisty_allAlike-&gt;twistyAlike_little_allMaze_grue</title>
+<path fill="none" stroke="#000000" d="M925.5315,-259.6036C955.4207,-241.9325 994.403,-218.8852 1028.4828,-198.7365"/>
+<polygon fill="#000000" stroke="#000000" points="1030.6648,-201.5124 1037.4916,-193.4102 1027.1023,-195.4868 1030.6648,-201.5124"/>
+<text text-anchor="middle" x="1020.1341" y="-216.4214" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- littleMaze_twisty_allAlike&#45;&gt;Start -->
+<g id="edge17" class="edge">
+<title>littleMaze_twisty_allAlike-&gt;Start</title>
+<path fill="none" stroke="#000000" d="M871.0814,-317.7868C867.535,-332.2933 862.2678,-349.7656 854.9665,-364.4114 853.0058,-368.3443 850.6032,-372.287 848.0476,-376.0452"/>
+<polygon fill="#000000" stroke="#000000" points="845.0233,-374.2513 841.9425,-384.3884 850.6724,-378.3851 845.0233,-374.2513"/>
+<text text-anchor="middle" x="871.8487" y="-351.8114" font-family="Times,serif" font-size="14.00" fill="#000000">east</text>
+</g>
+<!-- twistyAlike_little_allMaze_grue&#45;&gt;maze_littleTwisty_allAlike -->
+<g id="edge22" class="edge">
+<title>twistyAlike_little_allMaze_grue-&gt;maze_littleTwisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M1162.7013,-193.6583C1189.1864,-217.698 1214.9665,-250.7471 1214.9665,-288.3164 1214.9665,-500.6271 1214.9665,-500.6271 1214.9665,-500.6271 1214.9665,-536.0371 1187.385,-561.8757 1156.4484,-579.7201"/>
+<polygon fill="#000000" stroke="#000000" points="1154.7393,-576.6655 1147.6538,-584.5425 1158.105,-582.8034 1154.7393,-576.6655"/>
+<text text-anchor="middle" x="1227.7947" y="-396.2114" font-family="Times,serif" font-size="14.00" fill="#000000">west</text>
+</g>
+<!-- twistyAlike_little_allMaze_grue&#45;&gt;twistyMaze_little_allAlike -->
+<g id="edge21" class="edge">
+<title>twistyAlike_little_allMaze_grue-&gt;twistyMaze_little_allAlike</title>
+<path fill="none" stroke="#000000" d="M1133.2805,-194.3573C1154.4038,-232.1025 1176.0321,-288.1223 1149.9665,-329.6114 1101.6297,-406.55 1007.8908,-449.6872 928.8726,-473.3867"/>
+<polygon fill="#000000" stroke="#000000" points="927.4375,-470.1595 918.8193,-476.322 929.3995,-476.8789 927.4375,-470.1595"/>
+<text text-anchor="middle" x="1151.1341" y="-351.8114" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- maze_twistyLittle_allAlike -->
+<g id="node7" class="node">
+<title>maze_twistyLittle_allAlike</title>
+<ellipse fill="none" stroke="#000000" cx="647.9665" cy="-29.4156" rx="217.4711" ry="29.3315"/>
+<text text-anchor="middle" x="647.9665" y="-33.6156" font-family="Times,serif" font-size="14.00" fill="#000000">You are in a maze of twisty little passages, all alike.</text>
+<text text-anchor="middle" x="647.9665" y="-16.8156" font-family="Times,serif" font-size="14.00" fill="#000000">(W; can)</text>
+</g>
+<!-- twistyAlike_little_allMaze_grue&#45;&gt;maze_twistyLittle_allAlike -->
+<g id="edge20" class="edge">
+<title>twistyAlike_little_allMaze_grue-&gt;maze_twistyLittle_allAlike</title>
+<path fill="none" stroke="#000000" d="M969.1718,-116.0363C900.7259,-97.5783 819.0869,-75.5624 755.2427,-58.3452"/>
+<polygon fill="#000000" stroke="#000000" points="756.1217,-54.9573 745.5553,-55.7328 754.2991,-61.7159 756.1217,-54.9573"/>
+<text text-anchor="middle" x="891.7421" y="-81.0313" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- maze_twistyLittle_allAlike&#45;&gt;Start -->
+<g id="edge23" class="edge">
+<title>maze_twistyLittle_allAlike-&gt;Start</title>
+<path fill="none" stroke="#000000" d="M638.3608,-59.0274C621.5838,-116.797 593.8622,-246.1676 650.9665,-329.6114 681.8103,-374.682 746.4341,-391.0657 788.4737,-397.0183"/>
+<polygon fill="#000000" stroke="#000000" points="788.2777,-400.5217 798.6408,-398.3181 789.1654,-393.5782 788.2777,-400.5217"/>
+<text text-anchor="middle" x="630.7947" y="-216.4214" font-family="Times,serif" font-size="14.00" fill="#000000">west</text>
+</g>
+<!-- Start&#45;&gt;maze_littleTwisty_allAlike -->
+<g id="edge3" class="edge">
+<title>Start-&gt;maze_littleTwisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M857.5561,-400.9961C920.4501,-402.7521 1064.9513,-409.6649 1104.9665,-436.4114 1140.344,-460.0581 1135.9392,-488.9291 1124.9665,-530.0427 1120.7636,-545.7906 1112.2626,-561.2863 1103.2771,-574.5056"/>
+<polygon fill="#000000" stroke="#000000" points="1100.2898,-572.6669 1097.3426,-582.8436 1105.9928,-576.7259 1100.2898,-572.6669"/>
+<text text-anchor="middle" x="1147.1341" y="-496.4271" font-family="Times,serif" font-size="14.00" fill="#000000">south</text>
+</g>
+<!-- Start&#45;&gt;maze_alikeLittle_allTwisty_grue -->
+<g id="edge1" class="edge">
+<title>Start-&gt;maze_alikeLittle_allTwisty_grue</title>
+<path fill="none" stroke="#000000" d="M799.2927,-396.715C755.3807,-390.8837 668.9154,-378.728 596.2021,-364.4114 540.583,-353.4606 479.9704,-339.4848 426.7083,-326.5062"/>
+<polygon fill="#000000" stroke="#000000" points="427.3967,-323.0715 416.8515,-324.0954 425.7336,-329.8711 427.3967,-323.0715"/>
+<text text-anchor="middle" x="607.8487" y="-351.8114" font-family="Times,serif" font-size="14.00" fill="#000000">east</text>
+</g>
+<!-- Start&#45;&gt;twistyMaze_little_allAlike -->
+<g id="edge2" class="edge">
+<title>Start-&gt;twistyMaze_little_allAlike</title>
+<path fill="none" stroke="#000000" d="M805.6134,-412.1242C796.6697,-418.0901 787.3359,-426.2508 782.4153,-436.4114 778.6787,-444.1271 778.236,-452.8745 779.4699,-461.3746"/>
+<polygon fill="#000000" stroke="#000000" points="776.0525,-462.1312 781.5915,-471.1629 782.8937,-460.6483 776.0525,-462.1312"/>
+<text text-anchor="middle" x="796.7421" y="-440.6114" font-family="Times,serif" font-size="14.00" fill="#000000">north</text>
+</g>
+<!-- Start&#45;&gt;littleMaze_twisty_allAlike -->
+<g id="edge4" class="edge">
+<title>Start-&gt;littleMaze_twisty_allAlike</title>
+<path fill="none" stroke="#000000" d="M825.6097,-382.2769C824.9361,-371.832 825.272,-358.632 829.3101,-347.6114 832.0896,-340.0256 836.2619,-332.6795 841.0027,-325.8916"/>
+<polygon fill="#000000" stroke="#000000" points="844.0181,-327.7062 847.2495,-317.6161 838.4312,-323.4887 844.0181,-327.7062"/>
+<text text-anchor="middle" x="841.7947" y="-351.8114" font-family="Times,serif" font-size="14.00" fill="#000000">west</text>
+</g>
+</g>
+</svg>
