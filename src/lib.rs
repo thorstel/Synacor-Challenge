@@ -7,11 +7,11 @@ const MEM_SIZE: usize = 32768;
 const NUM_REGS: usize = 8;
 
 pub struct VirtualMachine {
-    ip:    usize,
-    mem:   [u16; MEM_SIZE],
-    reg:   [u16; NUM_REGS],
-    stack: Vec<u16>,
-    input: VecDeque<u16>,
+    pub input: VecDeque<u16>,
+    ip:        usize,
+    mem:       [u16; MEM_SIZE],
+    reg:       [u16; NUM_REGS],
+    stack:     Vec<u16>,
 }
 
 enum VMStatus {
@@ -36,12 +36,12 @@ impl VirtualMachine {
         vm
     }
 
-    pub fn run(&mut self) {
+    pub fn run(&mut self) -> bool {
         loop {
             match self.exec_op() {
                 VMStatus::Success      => (),
-                VMStatus::Halt         => break,
-                VMStatus::PendingInput => panic!("TODO"),
+                VMStatus::Halt         => break true,
+                VMStatus::PendingInput => break false,
             }
         }
     }
